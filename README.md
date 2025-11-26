@@ -31,16 +31,3 @@ Develop SQL-based analytics to deliver detailed insights into:
 - Sales Trends
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
-
----
-
-## License
-
-This course is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
-
----
-
-## About Me
-
-Hi, I'm Lusine! 
-I'm passionate about data analytics and continuously improving my skills in SQL, data modeling, and analytical problem-solving.
