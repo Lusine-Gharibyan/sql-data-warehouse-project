@@ -2,13 +2,12 @@
 
 Welcome to the "Data Warehouse and Analytics Project" repository.
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. 
-Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
 ---
 
 ## Project Requirements 
 
-### 1. Building The Data Warehouse (Data Engineering)
+### Building The Data Warehouse (Data Engineering)
 
 #### Objective
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
@@ -22,7 +21,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 ---
 
-### 2. Analytics and Reporting (Data Analytics)
+### Analytics and Reporting (Data Analytics)
 
 #### Objective
 Develop SQL-based analytics to deliver detailed insights into:
@@ -31,3 +30,12 @@ Develop SQL-based analytics to deliver detailed insights into:
 - Sales Trends
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+
+---
+
+## Data Architecture
+
+The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
+1. Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+2. Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3. Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
